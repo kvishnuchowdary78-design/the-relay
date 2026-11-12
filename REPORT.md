@@ -42,4 +42,4 @@ Four successful real answers were manually graded: three received grade 2 (corre
 ## 7. Feedback on Vaani and Reflection
 The assignment was useful because it required measurement of the complete pipeline rather than model answers alone. It highlighted rate-limit handling, retrieval quality, latency and honest reporting of missing data. Clearer guidance on evaluation labels, provider quota documentation and the distinction between simulated and measured metrics would improve reproducibility.
 
-**Evidence note:** Aggregated metrics are based on terminal outputs supplied during development. The original `results/results.csv` must be added from the local project; it is not included in this repository upload.
+**Evidence note:** Aggregated metrics are based on terminal outputs supplied during development. The original `results/results.csv` is included in the repository. PDF inputs and generated `data/chunks.json` are reproducible using the download and ingestion scripts.
