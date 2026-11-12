@@ -1,0 +1,6 @@
+question_id,question,expected_paper
+Q1,What is the Transformer architecture?,Attention Is All You Need
+Q2,How does multi-head attention work?,Attention Is All You Need
+Q3,What is scaled dot-product attention?,Attention Is All You Need
+Q4,How does Moshi support real-time speech dialogue?,Moshi: A Speech-Text Foundation Model
+Q5,What is dynamic chunking in hierarchical sequence modeling?,Dynamic Chunking for End-to-End Hierarchical Sequence Modeling
