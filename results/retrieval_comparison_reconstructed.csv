@@ -1,0 +1,16 @@
+question_id,question,expected_paper,top_k,retrieval_latency_ms,returned_chunks,context_words,expected_paper_chunks,expected_paper_ratio
+Q1,What is the Transformer architecture?,Attention Is All You Need,3,4.14,3,410,1,0.33
+Q1,What is the Transformer architecture?,Attention Is All You Need,5,4.55,5,840,2,0.4
+Q1,What is the Transformer architecture?,Attention Is All You Need,8,4.57,8,1260,3,0.38
+Q2,How does multi-head attention work?,Attention Is All You Need,3,4.27,3,575,2,0.67
+Q2,How does multi-head attention work?,Attention Is All You Need,5,5.19,5,825,4,0.8
+Q2,How does multi-head attention work?,Attention Is All You Need,8,3.59,8,1376,7,0.88
+Q3,What is scaled dot-product attention?,Attention Is All You Need,3,4.68,3,497,3,1
+Q3,What is scaled dot-product attention?,Attention Is All You Need,5,3.36,5,858,5,1
+Q3,What is scaled dot-product attention?,Attention Is All You Need,8,4.18,8,1205,7,0.88
+Q4,How does Moshi support real-time speech dialogue?,Moshi: A Speech-Text Foundation Model,3,2.85,3,572,3,1
+Q4,How does Moshi support real-time speech dialogue?,Moshi: A Speech-Text Foundation Model,5,3.94,5,867,5,1
+Q4,How does Moshi support real-time speech dialogue?,Moshi: A Speech-Text Foundation Model,8,3.53,8,1407,8,1
+Q5,What is dynamic chunking in hierarchical sequence modeling?,Dynamic Chunking for End-to-End Hierarchical Sequence Modeling,3,3.53,3,460,3,1
+Q5,What is dynamic chunking in hierarchical sequence modeling?,Dynamic Chunking for End-to-End Hierarchical Sequence Modeling,5,3.82,5,653,4,0.8
+Q5,What is dynamic chunking in hierarchical sequence modeling?,Dynamic Chunking for End-to-End Hierarchical Sequence Modeling,8,3.68,8,994,7,0.88
