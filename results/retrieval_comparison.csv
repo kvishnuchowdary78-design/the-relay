@@ -1,0 +1,16 @@
+question_id,question,expected_paper,top_k,retrieval_latency_ms,returned_chunks,context_words,expected_paper_chunks,expected_paper_ratio,retrieved_papers,retrieved_pages
+Q1,What is the Transformer architecture?,Attention Is All You Need,3,4.139,3,410,1,0.333,Attention Is All You Need ; Moshi: A Speech-Text Foundation Model,3 ; 40 ; 7
+Q1,What is the Transformer architecture?,Attention Is All You Need,5,4.552,5,840,2,0.4,Attention Is All You Need ; Moshi: A Speech-Text Foundation Model,3 ; 40 ; 63 ; 7 ; 9
+Q1,What is the Transformer architecture?,Attention Is All You Need,8,4.567,8,1260,3,0.375,Attention Is All You Need ; Dynamic Chunking for End-to-End Hierarchical Sequence Modeling ; Moshi: A Speech-Text Foundation Model,2 ; 3 ; 37 ; 40 ; 6 ; 63 ; 7 ; 9
+Q2,How does multi-head attention work?,Attention Is All You Need,3,4.266,3,575,2,0.667,Attention Is All You Need ; Moshi: A Speech-Text Foundation Model,4 ; 5 ; 62
+Q2,How does multi-head attention work?,Attention Is All You Need,5,5.189,5,825,4,0.8,Attention Is All You Need ; Moshi: A Speech-Text Foundation Model,1 ; 3 ; 4 ; 5 ; 62
+Q2,How does multi-head attention work?,Attention Is All You Need,8,3.59,8,1376,7,0.875,Attention Is All You Need ; Moshi: A Speech-Text Foundation Model,1 ; 3 ; 4 ; 5 ; 62
+Q3,What is scaled dot-product attention?,Attention Is All You Need,3,4.685,3,497,3,1.0,Attention Is All You Need,1 ; 4 ; 5
+Q3,What is scaled dot-product attention?,Attention Is All You Need,5,3.363,5,858,5,1.0,Attention Is All You Need,1 ; 4 ; 5
+Q3,What is scaled dot-product attention?,Attention Is All You Need,8,4.177,8,1205,7,0.875,Attention Is All You Need ; Moshi: A Speech-Text Foundation Model,1 ; 14 ; 15 ; 4 ; 40 ; 5
+Q4,How does Moshi support real-time speech dialogue?,Moshi: A Speech-Text Foundation Model,3,2.855,3,572,3,1.0,Moshi: A Speech-Text Foundation Model,35 ; 62 ; 65
+Q4,How does Moshi support real-time speech dialogue?,Moshi: A Speech-Text Foundation Model,5,3.94,5,867,5,1.0,Moshi: A Speech-Text Foundation Model,35 ; 41 ; 51 ; 62 ; 65
+Q4,How does Moshi support real-time speech dialogue?,Moshi: A Speech-Text Foundation Model,8,3.528,8,1407,8,1.0,Moshi: A Speech-Text Foundation Model,1 ; 35 ; 41 ; 51 ; 6 ; 62 ; 65
+Q5,What is dynamic chunking in hierarchical sequence modeling?,Dynamic Chunking for End-to-End Hierarchical Sequence Modeling,3,3.527,3,460,3,1.0,Dynamic Chunking for End-to-End Hierarchical Sequence Modeling,1 ; 2 ; 4
+Q5,What is dynamic chunking in hierarchical sequence modeling?,Dynamic Chunking for End-to-End Hierarchical Sequence Modeling,5,3.821,5,653,4,0.8,Dynamic Chunking for End-to-End Hierarchical Sequence Modeling ; Moshi: A Speech-Text Foundation Model,1 ; 2 ; 4 ; 40 ; 8
+Q5,What is dynamic chunking in hierarchical sequence modeling?,Dynamic Chunking for End-to-End Hierarchical Sequence Modeling,8,3.675,8,994,7,0.875,Dynamic Chunking for End-to-End Hierarchical Sequence Modeling ; Moshi: A Speech-Text Foundation Model,1 ; 2 ; 21 ; 3 ; 4 ; 40 ; 8
