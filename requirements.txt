@@ -1,0 +1,10 @@
+groq
+python-dotenv
+scikit-learn
+pandas
+numpy
+fastapi
+uvicorn
+requests
+httpx
+pypdf
